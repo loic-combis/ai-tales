@@ -1,0 +1,14 @@
+prefix=/Users/loic.combis/Desktop/workspace/tutorials/ai-tales/first-model/env
+exec_prefix=/Users/loic.combis/Desktop/workspace/tutorials/ai-tales/first-model/env
+libdir=/Users/loic.combis/Desktop/workspace/tutorials/ai-tales/first-model/env/lib
+includedir=/Users/loic.combis/Desktop/workspace/tutorials/ai-tales/first-model/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.4.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/loic.combis/Desktop/workspace/tutorials/ai-tales/first-model/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
